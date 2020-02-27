@@ -18,7 +18,7 @@ after_success:
   
 script:
   - ./gradlew build
-  - ./gradlew test
+  - ./gradlew clean test
 
 #addons:
 #  sonarcloud:
