@@ -17,8 +17,7 @@ after_success:
   - bash <(curl -s https://codecov.io/bash)
   
 script:
-  - ./gradlew build
-  - ./gradlew clean test jacocoTestReport --info
+  - ./gradlew clean build
 
 #addons:
 #  sonarcloud:
