@@ -18,7 +18,7 @@ after_success:
   
 script:
   - ./gradlew build
-  - ./gradlew clean test
+  - ./gradlew clean test jacocoTestReport --info
 
 #addons:
 #  sonarcloud:
